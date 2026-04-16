@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <article>
+    <h1>{{ .Title }}</h1>
+    <p><small>{{ T "published_on" }} {{ .Date.Format "2006-01-02" }}</small></p>
+    <hr>
+    {{ .Content }}
+  </article>
+  <hr>
+  <p><a href="{{ .Site.Home.RelPermalink }}">&larr; {{ T "home" }}</a></p>
+{{ end }}

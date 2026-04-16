@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  {{ $pages := .Pages }}
+  {{ if $pages }}
+    <ul>
+      {{ range $pages }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          <br>
+          <small>{{ T "published_on" }} {{ .Date.Format "2006-01-02" }}</small>
+          {{ with .Summary }}
+            {{ . }}
+          {{ end }}
+        </li>
+      {{ end }}
+    </ul>
+  {{ else }}
+    <p><em>No content yet.</em></p>
+  {{ end }}
+{{ end }}

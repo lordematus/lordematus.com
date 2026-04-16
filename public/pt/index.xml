@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inicio on lordematus</title>
+    <link>http://localhost:1313/pt/</link>
+    <description>Recent content in Inicio on lordematus</description>
+    <generator>Hugo</generator>
+    <language>pt</language>
+    <lastBuildDate>Thu, 16 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/pt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ola Mundo</title>
+      <link>http://localhost:1313/pt/posts/hello-world/</link>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pt/posts/hello-world/</guid>
+      <description>&lt;p&gt;Este e meu primeiro post no blog. Decidi criar este blog para documentar minha jornada como desenvolvedor e compartilhar o que estou aprendendo ao longo do caminho.&lt;/p&gt;&#xA;&lt;p&gt;O blog foi construido com &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, um gerador de sites estaticos rapido. Comecei com a configuracao mais simples possivel: templates HTML puros, sem CSS ou JavaScript customizado. A ideia e adicionar funcionalidades de forma incremental.&lt;/p&gt;&#xA;&lt;p&gt;Fique ligado para mais posts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sobre</title>
+      <link>http://localhost:1313/pt/about/</link>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pt/about/</guid>
+      <description>&lt;p&gt;Oi, eu sou Mateus Silva, tambem conhecido como &lt;strong&gt;lordematus&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Sou desenvolvedor de software e este e meu blog pessoal onde escrevo sobre tecnologia, desenvolvimento e coisas em que estou trabalhando.&lt;/p&gt;&#xA;&lt;p&gt;Voce pode me encontrar no &lt;a href=&#34;https://github.com/lordematus&#34;&gt;GitHub&lt;/a&gt; e no &lt;a href=&#34;https://linkedin.com/in/lordematus&#34;&gt;LinkedIn&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

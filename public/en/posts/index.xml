@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on lordematus</title>
+    <link>http://localhost:1313/en/posts/</link>
+    <description>Recent content in Posts on lordematus</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 16 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/en/posts/hello-world/</link>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/hello-world/</guid>
+      <description>&lt;p&gt;This is my first blog post. I decided to create this blog to document my journey as a developer and share what I&amp;rsquo;m learning along the way.&lt;/p&gt;&#xA;&lt;p&gt;The blog itself was built with &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, a fast static site generator. I started with the simplest possible setup: pure HTML templates with no custom CSS or JavaScript. The idea is to add features incrementally as I go.&lt;/p&gt;&#xA;&lt;p&gt;Stay tuned for more posts.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,58 @@
+baseURL = 'https://lordematus.com/'
+title = 'lordematus'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+
+[params]
+  author = 'Mateus Silva'
+  description = 'Personal blog by Mateus Silva'
+  githubURL = 'https://github.com/lordematus'
+  linkedinURL = 'https://linkedin.com/in/lordematus'
+  copyright = 'lordematus'
+
+[languages]
+  [languages.en]
+    languageName = 'English'
+    contentDir = 'content/en'
+    weight = 1
+    title = 'lordematus'
+    [languages.en.params]
+      description = 'Personal blog by Mateus Silva'
+
+  [languages.pt]
+    languageName = 'Portugues'
+    contentDir = 'content/pt'
+    weight = 2
+    title = 'lordematus'
+    [languages.pt.params]
+      description = 'Blog pessoal de Mateus Silva'
+
+[languages.en.menus]
+  [[languages.en.menus.main]]
+    name = 'Posts'
+    url = '/en/posts/'
+    weight = 1
+
+  [[languages.en.menus.main]]
+    name = 'About'
+    url = '/en/about/'
+    weight = 2
+
+[languages.pt.menus]
+  [[languages.pt.menus.main]]
+    name = 'Posts'
+    url = '/pt/posts/'
+    weight = 1
+
+  [[languages.pt.menus.main]]
+    name = 'Sobre'
+    url = '/pt/about/'
+    weight = 2
+
+[pagination]
+  pagerSize = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false

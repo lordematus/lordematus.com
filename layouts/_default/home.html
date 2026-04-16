@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <h1>{{ .Site.Title }}</h1>
+  <p>{{ .Site.Params.description }}</p>
+
+  <h2>{{ T "posts" }}</h2>
+  {{ $posts := where .Site.RegularPages "Section" "posts" }}
+  {{ if $posts }}
+    <ul>
+      {{ range $posts }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          <br>
+          <small>{{ T "published_on" }} {{ .Date.Format "2006-01-02" }}</small>
+          {{ with .Summary }}
+            {{ . }}
+          {{ end }}
+        </li>
+      {{ end }}
+    </ul>
+  {{ else }}
+    <p><em>No posts yet.</em></p>
+  {{ end }}
+{{ end }}

@@ -1,0 +1,21 @@
+<header>
+  <nav>
+    <a href="{{ .Site.Home.RelPermalink }}"><strong>{{ .Site.Title }}</strong></a>
+    &nbsp;|&nbsp;
+    {{ range .Site.Menus.main }}
+      <a href="{{ .URL }}">{{ .Name }}</a>&nbsp;
+    {{ end }}
+    &nbsp;|&nbsp;
+    <a href="{{ .Site.Params.githubURL }}" target="_blank" rel="noopener">GitHub</a>&nbsp;
+    <a href="{{ .Site.Params.linkedinURL }}" target="_blank" rel="noopener">LinkedIn</a>
+    &nbsp;|&nbsp;
+    {{ T "language" }}:
+    {{ if .IsTranslated }}
+      {{ range .Translations }}
+        <a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>&nbsp;
+      {{ end }}
+    {{ end }}
+    <a href="{{ .RelPermalink }}"><strong>{{ .Language.LanguageName }}</strong></a>
+  </nav>
+  <hr>
+</header>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on lordematus</title>
+    <link>http://localhost:1313/pt/posts/</link>
+    <description>Recent content in Posts on lordematus</description>
+    <generator>Hugo</generator>
+    <language>pt</language>
+    <lastBuildDate>Thu, 16 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/pt/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ola Mundo</title>
+      <link>http://localhost:1313/pt/posts/hello-world/</link>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pt/posts/hello-world/</guid>
+      <description>&lt;p&gt;Este e meu primeiro post no blog. Decidi criar este blog para documentar minha jornada como desenvolvedor e compartilhar o que estou aprendendo ao longo do caminho.&lt;/p&gt;&#xA;&lt;p&gt;O blog foi construido com &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, um gerador de sites estaticos rapido. Comecei com a configuracao mais simples possivel: templates HTML puros, sem CSS ou JavaScript customizado. A ideia e adicionar funcionalidades de forma incremental.&lt;/p&gt;&#xA;&lt;p&gt;Fique ligado para mais posts.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
