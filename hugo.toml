@@ -1,4 +1,4 @@
-baseURL = 'https://lordematus.com/'
+baseURL = 'https://blog.lordematus.com/'
 title = 'lordematus'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
